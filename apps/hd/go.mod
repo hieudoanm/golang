@@ -1,16 +1,18 @@
 module github.com/hieudoanm/fx
 
-go 1.22.2
+go 1.23
+
+toolchain go1.23.6
 
 require (
-	github.com/PuerkitoBio/goquery v1.9.2
+	github.com/PuerkitoBio/goquery v1.10.1
 	github.com/briandowns/spinner v1.23.2
 	github.com/spf13/cobra v1.8.1
 	golang.org/x/text v0.21.0
 )
 
 require (
-	github.com/andybalholm/cascadia v1.3.2 // indirect
+	github.com/andybalholm/cascadia v1.3.3 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
